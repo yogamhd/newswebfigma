@@ -19,6 +19,13 @@ ul {
     background-color: lavender;
 }
 
+.search {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 0;
+}
+
 a {
     float: left;
     display: block;
@@ -36,4 +43,50 @@ ul a:hover {
     background-color: lavender;
     width: 425px;
     height: 490px;    
+}
+
+.main-body {
+    margin: 0;
+
+}
+
+input[type=text] input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 5px;
+  display: flex;
+  border: 1px solid #ccc;
+  box-sizing: border-box;  
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 5px 10px;
+  background-color: #f44336;
+}
+
+.container {
+  padding: 16px;
+  position: relative;
+}
+
+.container-fluid-log {
+  background-color: lavender;
+  width: 425px;
+  height: 400px;
+  position: relative;    
 }
